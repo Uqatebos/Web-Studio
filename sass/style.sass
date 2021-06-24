@@ -1,0 +1,601 @@
+*
+   box-sizing: border-box
+   font-family: 'Noto Sans JP', sans-serif
+   font-weight: 400
+body
+   font-family: 'Noto Sans JP', sans-serif
+   font-weight: 400
+.wrapper
+   width: 100%
+   max-width: 1275px
+   min-width: 320px
+   position: relative
+   box-sizing: border-box
+   padding: 0 15px
+   margin: 0 auto
+.wrapper-big
+   max-width: 1530px
+   min-width: 320px
+   padding: 0 15px
+   margin: 0 auto
+   position: relative
+   box-sizing: border-box
+header
+   background: url(../images/header.png) center no-repeat
+   min-height: 810px
+   color: #ffffff
+.title
+   font-size: 48px
+   text-transform: uppercase
+   text-align: center
+   line-height: 72px
+   letter-spacing: 3px
+.subtitle
+   font-size: 24px
+   line-height: 36px
+   letter-spacing: 1px
+   text-align: center
+
+.title__header
+   padding: 0 75px
+   padding-top: 200px
+.subtitle__header
+   margin-top: 10px
+
+.info-stats
+   padding: 55px 172px 0 180px
+   display: flex
+   justify-content: space-between
+
+.info-stats__item
+   width: 250px
+   height: 160px
+   border: solid white 2px
+   padding-top: 35px
+
+.info-stats__inner
+   text-align: center
+.info-stats__nuber
+   line-height: 72px
+   font-size: 48px
+.info-stats__description
+   font-size: 18px
+.first-icon
+   position: absolute
+   left: 90px
+   bottom: 137px
+.second-icon
+   position: absolute
+   left: 93px
+   bottom: 137px
+.third-icon
+   position: absolute
+   left: 90px
+   bottom: 137px
+
+.info-stats__item
+   padding-top: 35px
+   position: relative
+   width: 220px
+   height: 160px
+   border: solid white
+   border-width: 0 2px 2px 2px
+
+.info-stats__item:before, .info-stats__item:after
+   content: ""
+   position: absolute
+   background: white
+   width: 37%
+   height: 2px
+   top: 0
+.info-stats__item + .info-stats__item
+
+.info-stats__item:after
+   right: 0
+
+.about-us
+   display: relative
+   min-height: 1220px
+
+.nav-bar
+   position: relative
+.nav-bar__items:after
+   content: ''
+   width: 120% //You can change this if you want smaller/bigger borders
+   height: 1px
+   position: absolute
+   left: -126px
+   bottom: 0 // If you want to set a smaller height and center it, change this value
+   background-color: #adadad // The color of your border
+.nav-bar__items
+   display: flex
+   justify-content: flex-end
+li + li
+   padding-left: 40px
+.nav-bar__item
+   a
+      font-size: 30px
+      line-height: 90px
+      outline: none
+   a:hover
+      color: #f6ae48
+
+.about-us__middle
+   display: flex
+   justify-content: space-between
+   align-items: center
+   justify-content: baseline
+   height: 525px
+.about-us__studio
+   font-weight: bold
+   font-size: 48px
+//   display: inline-block
+//   line-height: 420px
+
+//.about-us__we
+//   font-size: 340px
+//   font-weight: bold
+//   color: #f4f4f4
+//   z-index: -1
+//   position: absolute
+//   left: 270px
+//   bottom: 450px
+//   text-transform: uppercase
+
+.about-us__text
+   display: flex
+   justify-content: center
+   align-items: center
+   color: #545454
+   font-size: 20px
+   line-height: 26px
+   word-spacing: 1px
+   height: 250px
+   background-image: url('../images/WE.png')
+   background-repeat: no-repeat
+   background-size: contain
+   background-position: left
+   width: 780px
+
+.about-us__items
+   display: flex
+.about-us__item
+   max-width: 440px
+   max-height: 360px
+.about-us__item:hover
+   background-color: #f6ae48
+   color: white
+.about-us__item button
+   color: white
+   border: 2px solid white
+   background-color: inherit
+   display: inline-block
+   font-size: 18px
+   width: 131px
+   height: 36px
+.about-us__item button:hover
+   cursor: pointer
+
+.about-us__item a img:hover
+   cursor: pointer
+
+.about-us__title
+   font-weight: bold
+   font-size: 20px
+   line-height: 28px
+
+.button-arrow
+   display: flex
+   align-items: baseline
+   justify-content: space-between
+   padding-top: 25px
+
+.about-us__description
+   line-height: 22px
+   font-size: 16px
+#pl
+   padding: 10px 20px 20px 16px
+
+.development
+   background: url(../images/about-us-credo.png) top center no-repeat
+   height: 1180px
+   color: white
+.developmen-about-us
+   height: 565px
+
+.development-main
+
+.development__img
+   z-index: 2
+.development__img img
+   position: absolute
+   left: -112px
+   top: 520px
+
+.development__img div
+   position: absolute
+   font-size: 50px
+   top: 655px
+
+.title-development
+   font-weight: bold
+   font-size: 50px
+   padding-top: 140px
+   text-transform: uppercase
+
+.subtitle-development
+   padding-top: 10px
+   font: 24px
+
+.development-items
+   display: flex
+   justify-content: center
+   position: relative
+   z-index: 5
+   margin-top: 205px
+
+.development-item
+   position: relative
+   text-transform: uppercase
+   font-size: 50px
+   font-weight: 500
+   width: 100%
+   max-width: 366px
+   height: 100%
+   max-height: 315px
+   z-index: 5
+.development-item__contain
+   padding: 75px 40px 30px 39px
+
+.development-item + .development-item
+   margin-left: 17px
+.landing-page
+   background: url(../images/landing-page.png) center no-repeat
+   background-size: contain
+
+.web-site
+   background: url(../images/web-site.png) center no-repeat
+   background-size: contain
+
+.online-store
+   background: url(../images/online-store.png) center no-repeat
+   background-size: contain
+
+.development-item__title
+   width: 260px
+   height: 110px
+   border-bottom: 1px solid #ffffff
+
+.button-arrow__development img
+   cursor: pointer
+.button-arrow__development a button
+   background-color: Transparent
+   background-repeat: no-repeat
+   color: white
+   cursor: pointer
+   font-size: 24px
+   word-spacing: 5px
+   letter-spacing: 1px
+   width: 199px
+   height: 54px
+
+.blue
+   border: solid 2px blue
+.yellow
+   border: solid 2px yellow
+.green
+   border: solid 2px green
+
+.be-first
+   height: 670px
+.be-first-text
+   display: inline-block
+   margin-top: 130px
+   margin-left: 58px
+
+.be-first__title
+   font-size: 36px
+   line-height: 80px
+   text-transform: uppercase
+   font-weight: bold
+.be-first__description
+   font-size: 24px
+   line-height: 40px
+
+.be-first-img
+   margin-top: 90px
+   display: flex
+   flex-direction: column
+
+.be-first-img__img
+   display: inline-block
+   margin-top: 40px
+
+.be-first__flex
+   margin-right: 218px
+   display: flex
+   justify-content: space-between
+
+#be-the-first
+   text-transform: uppercase
+   z-index: -1
+   position: absolute
+   left: 13px
+   color: #dedede
+   font-size: 80px
+   font-weight: bold
+
+.projects
+   background-color: #303263
+   width: 100%
+   max-height: 987px
+   max-width: 1500px
+   position: relative
+   box-sizing: border-box
+   padding: 0 15px
+   margin: 0 auto
+//#projects
+//   position: absolute
+//   text-transform: uppercase
+//   color: #8a8ba1
+//   left: 390px
+//   top: 10px
+//   font-size: 96px
+//   font-weight: bold
+.projects__title
+   position: relative
+   height: 117px
+   display: flex
+   justify-content: center
+   align-items: center
+   color: white
+   font-size: 36px
+   text-transform: uppercase
+
+.projects__title p
+   background-image: url('../images/OUR-PROJECTS.png')
+   background-repeat: no-repeat
+   background-size: contain
+   background-position: center
+   text-align: center
+   display: flex
+   justify-content: center
+   align-items: center
+   width: 56%
+   height: 80%
+
+.projects-imgs__first
+   display: flex
+
+#PC
+   width: 51%
+#cons
+   width: 49%
+
+.projects-imgs__second
+   display: flex
+
+.projects-imgs__second img
+   width: 25%
+
+.projects-bottom
+   height: 117px
+   display: flex
+   justify-content: center
+   align-items: center
+.projects-button
+   width: 240px
+   height: 66px
+   background-color: #6a6b8e
+   font-size: 20px
+   text-transform: uppercase
+   color: white
+   font-weight: bold
+   border: none
+   border-radius: 16px
+   cursor: pointer
+
+.clone
+   width: 100%
+   max-width: 1500px
+   margin: 0 auto
+   display: flex
+   justify-content: start
+   align-items: center
+.clone-adaptate
+   height: 765px
+   background: url(../images/outline.png) center right no-repeat
+.adaptate-text
+   padding-left: 10%
+   padding-top: 7%
+//   background: url(../images/ADAPTATE.png) left top no-repeat
+
+.clone-title
+   padding-left: 50px
+   font-size: 36px
+   line-height: 64px
+   text-transform: uppercase
+   font-weight: bold
+   display: block
+.clone-title__adaptate
+   background: url(../images/ADAPTATE.png) bottom left no-repeat
+   background-size: contain
+.clone-description
+   padding-left: 50px
+   font-size: 24px
+   line-height: 40px
+   letter-spacing: 1px
+   word-spacing: 2px
+
+.trade-in
+   color: white
+   margin: 0 auto
+   padding-left: 94px
+   width: 100%
+   max-width: 1500px
+   height: 675px
+   background: url(../images/trade-in.png) no-repeat
+.trade-in__title
+   text-align: center
+   padding: 60px 0 75px 0
+   text-transform: uppercase
+   font-size: 48px
+   font-weight: bold
+.trade-in-items
+   display: flex
+   padding-right: 15px
+//   align-items: baseline
+
+.trade-in-item + .trade-in-item
+   padding-left: 40px
+
+.trade-in-item__top
+   display: flex
+   flex-direction: row
+.trade-in-item__img
+
+.trade-in-item__title
+   padding-left: 22px
+   text-transform: uppercase
+   font-weight: bold
+   font-size: 30px
+
+.trade-in-item__description
+   padding-top: 28px
+   font-size: 18px
+   line-height: 30px
+   word-spacing: 3px
+
+.magnify-decr
+   padding: 8px 0 0 40px
+.trade-in-item
+
+.button-padding
+   padding-top: 20px
+   text-align: center
+.trade-in__button
+   cursor: pointer
+   color: white
+   align-items: center
+   font-weight: bold
+   font-size: 24px
+   text-transform: uppercase
+   width: 330px
+   height: 54px
+   border-radius: 18px
+   border: none
+   background-color: #f6ae48
+
+.clone-be-careful
+   height: 758px
+   background: url(../images/be-careful.png) no-repeat
+   background-position: 890px 33px
+.clone-title__be-careful
+   background: url(../images/be-careful__text.png) bottom left no-repeat
+   background-size: contain
+.text-careful
+   padding-bottom: 120px
+   padding-left: 10%
+.feedback
+   width: 1500px
+   height: 675px
+   margin: 0 auto
+   background-color: #f6ae48
+   background: url(../images/feedback.png) center top no-repeat
+   display: flex
+   flex-direction: row
+
+.feedback-form
+
+.feedback-form
+   color: white
+   font-size: 18px
+.feedback-form input
+   outline: none
+   border: solid 4px white
+   background-color: transparent
+   color: white
+   font-size: 18px
+
+.feedback-form input[type="text"]
+   padding-left: 20px
+.feedback-form input[type="email"]
+   padding-left: 20px
+
+input::placeholder
+   color: white
+textarea::placeholder
+   color: white
+#name
+   width: 309px
+   height: 50px
+#surname
+   width: 305px
+   height: 50px
+   border-left: none
+
+#email
+   width: 614px
+   height: 46px
+   border-top: none
+
+#message
+   width: 614px
+   height: 167px
+   background-color: transparent
+   border: solid 4px white
+   border-top: none
+   resize: none
+   outline: none
+   color: white
+   font-size: 18px
+   padding: 5px 20px
+
+.feedback-text
+   color: white
+
+.feedback-text__title
+   font-weight: bold
+   text-transform: uppercase
+   font-size: 30px
+.feedback-text__description
+   padding-top: 55px
+   font-size: 18px
+   line-height: 25px
+   word-spacing: 2px
+
+.feedback-flex
+   display: flex
+   justify-content: space-between
+   padding: 126px 25px 0 50px
+.form-text
+   font-size: 14px
+.input-submit
+   cursor: pointer
+   color: white
+   font-weight: bold
+   font-size: 14px
+   text-transform: uppercase
+   width: 143px
+   height: 44px
+   border: none
+   border-radius: 16px
+   background-color: #f6ae48
+.form-bottom
+   padding-top: 14px
+   padding-left: 23px
+   display: flex
+   flex-direction: row
+   justify-content: space-between
+@media (max-width: 1507px)
+   .nav-bar__items:after
+      width: 125%
+      left: -20%
+@media (max-width: 1400px)
+   .nav-bar__items:after
+      width: 120%
+      left: -20%
+@media (max-width: 1200px)
+   .info-stats
+      padding-left: 50px
+      padding-right: 50px

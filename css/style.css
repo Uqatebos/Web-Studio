@@ -1,0 +1,870 @@
+@charset "UTF-8";
+/* line 1, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+
+/* line 5, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+
+/* line 8, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.wrapper {
+  width: 100%;
+  max-width: 1275px;
+  min-width: 320px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* line 16, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.wrapper-big {
+  max-width: 1530px;
+  min-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 23, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+header {
+  background: url(../images/header.png) center no-repeat;
+  min-height: 810px;
+  color: #ffffff;
+}
+
+/* line 27, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.title {
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 72px;
+  letter-spacing: 3px;
+}
+
+/* line 33, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.subtitle {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* line 39, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.title__header {
+  padding: 0 75px;
+  padding-top: 200px;
+}
+
+/* line 42, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.subtitle__header {
+  margin-top: 10px;
+}
+
+/* line 45, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.info-stats {
+  padding: 55px 172px 0 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 50, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.info-stats__item {
+  width: 250px;
+  height: 160px;
+  border: solid white 2px;
+  padding-top: 35px;
+}
+
+/* line 56, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.info-stats__inner {
+  text-align: center;
+}
+
+/* line 58, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.info-stats__nuber {
+  line-height: 72px;
+  font-size: 48px;
+}
+
+/* line 61, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.info-stats__description {
+  font-size: 18px;
+}
+
+/* line 63, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.first-icon {
+  position: absolute;
+  left: 90px;
+  bottom: 137px;
+}
+
+/* line 67, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.second-icon {
+  position: absolute;
+  left: 93px;
+  bottom: 137px;
+}
+
+/* line 71, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.third-icon {
+  position: absolute;
+  left: 90px;
+  bottom: 137px;
+}
+
+/* line 76, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.info-stats__item {
+  padding-top: 35px;
+  position: relative;
+  width: 220px;
+  height: 160px;
+  border: solid white;
+  border-width: 0 2px 2px 2px;
+}
+
+/* line 84, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.info-stats__item:before, .info-stats__item:after {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 37%;
+  height: 2px;
+  top: 0;
+}
+
+/* line 93, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.info-stats__item:after {
+  right: 0;
+}
+
+/* line 96, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us {
+  display: relative;
+  min-height: 1220px;
+}
+
+/* line 100, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.nav-bar {
+  position: relative;
+}
+
+/* line 102, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.nav-bar__items:after {
+  content: '';
+  width: 120%;
+  height: 1px;
+  position: absolute;
+  left: -126px;
+  bottom: 0;
+  background-color: #adadad;
+}
+
+/* line 110, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.nav-bar__items {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 113, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+li + li {
+  padding-left: 40px;
+}
+
+/* line 116, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.nav-bar__item a {
+  font-size: 30px;
+  line-height: 90px;
+  outline: none;
+}
+
+/* line 120, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.nav-bar__item a:hover {
+  color: #f6ae48;
+}
+
+/* line 123, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: baseline;
+  height: 525px;
+}
+
+/* line 129, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__studio {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+/* line 145, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #545454;
+  font-size: 20px;
+  line-height: 26px;
+  word-spacing: 1px;
+  height: 250px;
+  background-image: url("../images/WE.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  width: 780px;
+}
+
+/* line 160, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__items {
+  display: flex;
+}
+
+/* line 162, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__item {
+  max-width: 440px;
+  max-height: 360px;
+}
+
+/* line 165, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__item:hover {
+  background-color: #f6ae48;
+  color: white;
+}
+
+/* line 168, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__item button {
+  color: white;
+  border: 2px solid white;
+  background-color: inherit;
+  display: inline-block;
+  font-size: 18px;
+  width: 131px;
+  height: 36px;
+}
+
+/* line 176, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__item button:hover {
+  cursor: pointer;
+}
+
+/* line 179, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__item a img:hover {
+  cursor: pointer;
+}
+
+/* line 182, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/* line 187, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.button-arrow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+/* line 193, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.about-us__description {
+  line-height: 22px;
+  font-size: 16px;
+}
+
+/* line 196, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+#pl {
+  padding: 10px 20px 20px 16px;
+}
+
+/* line 199, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development {
+  background: url(../images/about-us-credo.png) top center no-repeat;
+  height: 1180px;
+  color: white;
+}
+
+/* line 203, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.developmen-about-us {
+  height: 565px;
+}
+
+/* line 208, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development__img {
+  z-index: 2;
+}
+
+/* line 210, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development__img img {
+  position: absolute;
+  left: -112px;
+  top: 520px;
+}
+
+/* line 215, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development__img div {
+  position: absolute;
+  font-size: 50px;
+  top: 655px;
+}
+
+/* line 220, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.title-development {
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 140px;
+  text-transform: uppercase;
+}
+
+/* line 226, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.subtitle-development {
+  padding-top: 10px;
+  font: 24px;
+}
+
+/* line 230, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development-items {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 5;
+  margin-top: 205px;
+}
+
+/* line 237, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development-item {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 366px;
+  height: 100%;
+  max-height: 315px;
+  z-index: 5;
+}
+
+/* line 247, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development-item__contain {
+  padding: 75px 40px 30px 39px;
+}
+
+/* line 250, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development-item + .development-item {
+  margin-left: 17px;
+}
+
+/* line 252, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.landing-page {
+  background: url(../images/landing-page.png) center no-repeat;
+  background-size: contain;
+}
+
+/* line 256, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.web-site {
+  background: url(../images/web-site.png) center no-repeat;
+  background-size: contain;
+}
+
+/* line 260, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.online-store {
+  background: url(../images/online-store.png) center no-repeat;
+  background-size: contain;
+}
+
+/* line 264, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.development-item__title {
+  width: 260px;
+  height: 110px;
+  border-bottom: 1px solid #ffffff;
+}
+
+/* line 269, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.button-arrow__development img {
+  cursor: pointer;
+}
+
+/* line 271, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.button-arrow__development a button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  width: 199px;
+  height: 54px;
+}
+
+/* line 282, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.blue {
+  border: solid 2px blue;
+}
+
+/* line 284, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.yellow {
+  border: solid 2px yellow;
+}
+
+/* line 286, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.green {
+  border: solid 2px green;
+}
+
+/* line 289, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.be-first {
+  height: 670px;
+}
+
+/* line 291, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.be-first-text {
+  display: inline-block;
+  margin-top: 130px;
+  margin-left: 58px;
+}
+
+/* line 296, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.be-first__title {
+  font-size: 36px;
+  line-height: 80px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 301, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.be-first__description {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+/* line 305, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.be-first-img {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 310, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.be-first-img__img {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+/* line 314, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.be-first__flex {
+  margin-right: 218px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 319, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+#be-the-first {
+  text-transform: uppercase;
+  z-index: -1;
+  position: absolute;
+  left: 13px;
+  color: #dedede;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+/* line 328, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.projects {
+  background-color: #303263;
+  width: 100%;
+  max-height: 987px;
+  max-width: 1500px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* line 345, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.projects__title {
+  position: relative;
+  height: 117px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+/* line 355, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.projects__title p {
+  background-image: url("../images/OUR-PROJECTS.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56%;
+  height: 80%;
+}
+
+/* line 367, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.projects-imgs__first {
+  display: flex;
+}
+
+/* line 370, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+#PC {
+  width: 51%;
+}
+
+/* line 372, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+#cons {
+  width: 49%;
+}
+
+/* line 375, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.projects-imgs__second {
+  display: flex;
+}
+
+/* line 378, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.projects-imgs__second img {
+  width: 25%;
+}
+
+/* line 381, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.projects-bottom {
+  height: 117px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 386, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.projects-button {
+  width: 240px;
+  height: 66px;
+  background-color: #6a6b8e;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+/* line 398, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.clone {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* line 405, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.clone-adaptate {
+  height: 765px;
+  background: url(../images/outline.png) center right no-repeat;
+}
+
+/* line 408, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.adaptate-text {
+  padding-left: 10%;
+  padding-top: 7%;
+}
+
+/* line 413, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.clone-title {
+  padding-left: 50px;
+  font-size: 36px;
+  line-height: 64px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 420, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.clone-title__adaptate {
+  background: url(../images/ADAPTATE.png) bottom left no-repeat;
+  background-size: contain;
+}
+
+/* line 423, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.clone-description {
+  padding-left: 50px;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/* line 430, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.trade-in {
+  color: white;
+  margin: 0 auto;
+  padding-left: 94px;
+  width: 100%;
+  max-width: 1500px;
+  height: 675px;
+  background: url(../images/trade-in.png) no-repeat;
+}
+
+/* line 438, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.trade-in__title {
+  text-align: center;
+  padding: 60px 0 75px 0;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* line 444, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.trade-in-items {
+  display: flex;
+  padding-right: 15px;
+}
+
+/* line 449, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.trade-in-item + .trade-in-item {
+  padding-left: 40px;
+}
+
+/* line 452, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.trade-in-item__top {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 457, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.trade-in-item__title {
+  padding-left: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* line 463, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.trade-in-item__description {
+  padding-top: 28px;
+  font-size: 18px;
+  line-height: 30px;
+  word-spacing: 3px;
+}
+
+/* line 469, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.magnify-decr {
+  padding: 8px 0 0 40px;
+}
+
+/* line 473, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.button-padding {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* line 476, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.trade-in__button {
+  cursor: pointer;
+  color: white;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 330px;
+  height: 54px;
+  border-radius: 18px;
+  border: none;
+  background-color: #f6ae48;
+}
+
+/* line 489, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.clone-be-careful {
+  height: 758px;
+  background: url(../images/be-careful.png) no-repeat;
+  background-position: 890px 33px;
+}
+
+/* line 493, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.clone-title__be-careful {
+  background: url(../images/be-careful__text.png) bottom left no-repeat;
+  background-size: contain;
+}
+
+/* line 496, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.text-careful {
+  padding-bottom: 120px;
+  padding-left: 10%;
+}
+
+/* line 499, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback {
+  width: 1500px;
+  height: 675px;
+  margin: 0 auto;
+  background-color: #f6ae48;
+  background: url(../images/feedback.png) center top no-repeat;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 510, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback-form {
+  color: white;
+  font-size: 18px;
+}
+
+/* line 513, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback-form input {
+  outline: none;
+  border: solid 4px white;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+}
+
+/* line 520, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback-form input[type="text"] {
+  padding-left: 20px;
+}
+
+/* line 522, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback-form input[type="email"] {
+  padding-left: 20px;
+}
+
+/* line 525, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+input::placeholder {
+  color: white;
+}
+
+/* line 527, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+textarea::placeholder {
+  color: white;
+}
+
+/* line 529, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+#name {
+  width: 309px;
+  height: 50px;
+}
+
+/* line 532, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+#surname {
+  width: 305px;
+  height: 50px;
+  border-left: none;
+}
+
+/* line 537, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+#email {
+  width: 614px;
+  height: 46px;
+  border-top: none;
+}
+
+/* line 542, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+#message {
+  width: 614px;
+  height: 167px;
+  background-color: transparent;
+  border: solid 4px white;
+  border-top: none;
+  resize: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  padding: 5px 20px;
+}
+
+/* line 554, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback-text {
+  color: white;
+}
+
+/* line 557, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback-text__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+/* line 561, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback-text__description {
+  padding-top: 55px;
+  font-size: 18px;
+  line-height: 25px;
+  word-spacing: 2px;
+}
+
+/* line 567, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.feedback-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 126px 25px 0 50px;
+}
+
+/* line 571, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.form-text {
+  font-size: 14px;
+}
+
+/* line 573, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.input-submit {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 143px;
+  height: 44px;
+  border: none;
+  border-radius: 16px;
+  background-color: #f6ae48;
+}
+
+/* line 584, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.form-bottom {
+  padding-top: 14px;
+  padding-left: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 1507px) {
+  /* line 591, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+  .nav-bar__items:after {
+    width: 125%;
+    left: -20%;
+  }
+}
+
+@media (max-width: 1400px) {
+  /* line 595, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+  .nav-bar__items:after {
+    width: 120%;
+    left: -20%;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* line 599, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+  .info-stats {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
