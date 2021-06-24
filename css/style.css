@@ -427,47 +427,37 @@ li + li {
 }
 
 /* line 291, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+.clone-title__be-first {
+  background: url(../images/be-the-first.png) bottom left no-repeat;
+  background-size: contain;
+}
+
+/* line 294, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .be-first-text {
-  display: inline-block;
-  margin-top: 130px;
-  margin-left: 58px;
+  padding-top: 120px;
 }
 
-/* line 296, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
-.be-first__title {
-  font-size: 36px;
-  line-height: 80px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-/* line 301, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
-.be-first__description {
-  font-size: 24px;
-  line-height: 40px;
-}
-
-/* line 305, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 297, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .be-first-img {
   margin-top: 90px;
   display: flex;
   flex-direction: column;
 }
 
-/* line 310, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 302, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .be-first-img__img {
   display: inline-block;
   margin-top: 40px;
 }
 
-/* line 314, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 306, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .be-first__flex {
   margin-right: 218px;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 319, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 311, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 #be-the-first {
   text-transform: uppercase;
   z-index: -1;
@@ -478,7 +468,7 @@ li + li {
   font-weight: bold;
 }
 
-/* line 328, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 320, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .projects {
   background-color: #303263;
   width: 100%;
@@ -490,7 +480,7 @@ li + li {
   margin: 0 auto;
 }
 
-/* line 345, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 337, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .projects__title {
   position: relative;
   height: 117px;
@@ -502,7 +492,7 @@ li + li {
   text-transform: uppercase;
 }
 
-/* line 355, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 347, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .projects__title p {
   background-image: url("../images/OUR-PROJECTS.png");
   background-repeat: no-repeat;
@@ -516,32 +506,32 @@ li + li {
   height: 80%;
 }
 
-/* line 367, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 359, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .projects-imgs__first {
   display: flex;
 }
 
-/* line 370, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 362, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 #PC {
   width: 51%;
 }
 
-/* line 372, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 364, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 #cons {
   width: 49%;
 }
 
-/* line 375, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 367, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .projects-imgs__second {
   display: flex;
 }
 
-/* line 378, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 370, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .projects-imgs__second img {
   width: 25%;
 }
 
-/* line 381, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 373, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .projects-bottom {
   height: 117px;
   display: flex;
@@ -549,7 +539,7 @@ li + li {
   align-items: center;
 }
 
-/* line 386, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 378, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .projects-button {
   width: 240px;
   height: 66px;
@@ -563,7 +553,7 @@ li + li {
   cursor: pointer;
 }
 
-/* line 398, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 390, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .clone {
   width: 100%;
   max-width: 1500px;
@@ -573,19 +563,19 @@ li + li {
   align-items: center;
 }
 
-/* line 405, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 397, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .clone-adaptate {
   height: 765px;
   background: url(../images/outline.png) center right no-repeat;
 }
 
-/* line 408, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 400, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .adaptate-text {
   padding-left: 10%;
   padding-top: 7%;
 }
 
-/* line 413, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 405, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .clone-title {
   padding-left: 50px;
   font-size: 36px;
@@ -595,14 +585,15 @@ li + li {
   display: block;
 }
 
-/* line 420, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 412, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .clone-title__adaptate {
   background: url(../images/ADAPTATE.png) bottom left no-repeat;
   background-size: contain;
 }
 
-/* line 423, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 415, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .clone-description {
+  max-width: 608px;
   padding-left: 50px;
   font-size: 24px;
   line-height: 40px;
@@ -610,7 +601,7 @@ li + li {
   word-spacing: 2px;
 }
 
-/* line 430, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 423, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .trade-in {
   color: white;
   margin: 0 auto;
@@ -621,7 +612,7 @@ li + li {
   background: url(../images/trade-in.png) no-repeat;
 }
 
-/* line 438, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 431, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .trade-in__title {
   text-align: center;
   padding: 60px 0 75px 0;
@@ -630,24 +621,24 @@ li + li {
   font-weight: bold;
 }
 
-/* line 444, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 437, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .trade-in-items {
   display: flex;
   padding-right: 15px;
 }
 
-/* line 449, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 442, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .trade-in-item + .trade-in-item {
   padding-left: 40px;
 }
 
-/* line 452, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 445, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .trade-in-item__top {
   display: flex;
   flex-direction: row;
 }
 
-/* line 457, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 450, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .trade-in-item__title {
   padding-left: 22px;
   text-transform: uppercase;
@@ -655,7 +646,7 @@ li + li {
   font-size: 30px;
 }
 
-/* line 463, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 456, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .trade-in-item__description {
   padding-top: 28px;
   font-size: 18px;
@@ -663,18 +654,18 @@ li + li {
   word-spacing: 3px;
 }
 
-/* line 469, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 462, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .magnify-decr {
   padding: 8px 0 0 40px;
 }
 
-/* line 473, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 466, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .button-padding {
   padding-top: 20px;
   text-align: center;
 }
 
-/* line 476, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 469, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .trade-in__button {
   cursor: pointer;
   color: white;
@@ -689,28 +680,28 @@ li + li {
   background-color: #f6ae48;
 }
 
-/* line 489, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 482, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .clone-be-careful {
   height: 758px;
   background: url(../images/be-careful.png) no-repeat;
-  background-position: 890px 33px;
+  background-position: 890px 55px;
 }
 
-/* line 493, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 486, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .clone-title__be-careful {
   background: url(../images/be-careful__text.png) bottom left no-repeat;
   background-size: contain;
 }
 
-/* line 496, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 489, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .text-careful {
   padding-bottom: 120px;
   padding-left: 10%;
 }
 
-/* line 499, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 492, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback {
-  width: 1500px;
+  max-width: 1500px;
   height: 675px;
   margin: 0 auto;
   background-color: #f6ae48;
@@ -719,13 +710,13 @@ li + li {
   flex-direction: row;
 }
 
-/* line 510, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 503, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback-form {
   color: white;
   font-size: 18px;
 }
 
-/* line 513, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 506, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback-form input {
   outline: none;
   border: solid 4px white;
@@ -734,47 +725,47 @@ li + li {
   font-size: 18px;
 }
 
-/* line 520, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 513, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback-form input[type="text"] {
   padding-left: 20px;
 }
 
-/* line 522, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 515, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback-form input[type="email"] {
   padding-left: 20px;
 }
 
-/* line 525, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 518, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 input::placeholder {
   color: white;
 }
 
-/* line 527, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 520, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 textarea::placeholder {
   color: white;
 }
 
-/* line 529, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 522, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 #name {
   width: 309px;
   height: 50px;
 }
 
-/* line 532, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 525, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 #surname {
   width: 305px;
   height: 50px;
   border-left: none;
 }
 
-/* line 537, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 530, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 #email {
   width: 614px;
   height: 46px;
   border-top: none;
 }
 
-/* line 542, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 535, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 #message {
   width: 614px;
   height: 167px;
@@ -788,39 +779,40 @@ textarea::placeholder {
   padding: 5px 20px;
 }
 
-/* line 554, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 547, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback-text {
   color: white;
 }
 
-/* line 557, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 550, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback-text__title {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 30px;
 }
 
-/* line 561, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 554, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback-text__description {
+  max-width: 360px;
   padding-top: 55px;
   font-size: 18px;
   line-height: 25px;
   word-spacing: 2px;
 }
 
-/* line 567, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 561, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .feedback-flex {
   display: flex;
   justify-content: space-between;
   padding: 126px 25px 0 50px;
 }
 
-/* line 571, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 565, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .form-text {
   font-size: 14px;
 }
 
-/* line 573, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 567, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .input-submit {
   cursor: pointer;
   color: white;
@@ -834,7 +826,7 @@ textarea::placeholder {
   background-color: #f6ae48;
 }
 
-/* line 584, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+/* line 578, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
 .form-bottom {
   padding-top: 14px;
   padding-left: 23px;
@@ -844,7 +836,7 @@ textarea::placeholder {
 }
 
 @media (max-width: 1507px) {
-  /* line 591, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+  /* line 585, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
   .nav-bar__items:after {
     width: 125%;
     left: -20%;
@@ -852,7 +844,7 @@ textarea::placeholder {
 }
 
 @media (max-width: 1400px) {
-  /* line 595, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+  /* line 589, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
   .nav-bar__items:after {
     width: 120%;
     left: -20%;
@@ -860,7 +852,7 @@ textarea::placeholder {
 }
 
 @media (max-width: 1200px) {
-  /* line 599, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
+  /* line 593, ../Фронтенд/Портфолио/Вэб студия/sass/style.sass */
   .info-stats {
     padding-left: 50px;
     padding-right: 50px;
